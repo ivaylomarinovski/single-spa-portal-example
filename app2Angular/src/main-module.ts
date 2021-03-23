@@ -9,6 +9,7 @@ import {APP_BASE_HREF} from "@angular/common";
 import { NgReduxModule, NgRedux } from '@angular-redux/store';
 import { IAppState, CounterActions } from './store';
 import { Globals } from "./globals.service";
+import { defineCustomElements } from "components-lib"
 
 const appRoutes: Routes = [
 	{
